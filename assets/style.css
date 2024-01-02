@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins',sans-serif;
+    background-size: cover;
+    background-color: rgb(204, 198, 198);
+    color:#191a19;
+}
+.textt{            /*text alt cizgi kaldırma class*/
+    text-decoration: none;
+
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+a{
+    color:white;
+}
+header{
+    height: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.893)
+}
+/* Header baslangıc */
+.hd1{
+    width: 70%;
+    margin:auto;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+header nav .logo a{
+    color:white;
+    text-decoration: none;
+    width: 20px;
+    height: 10px;
+    font-weight: 200;
+    font-size:20px;
+}
+header nav .logo a:hover{
+    color:green;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+nav ul a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red
+  
+}
+nav.menu{
+    display: flex;
+}
+/* ############### HEADER BİTİS ############ */
+
+/*footer{
+    background-image: url("rr.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+
+/* section baslangıc */
+
+.content{
+    color:black;
+    padding-top: 24px;;
+}
+.content h1{
+    font-size: 25px;
+    
+}
+.content p{
+    font-size: 17px;
+    padding-top: 24px;
+    text-align:justify;
+}
+.class{
+    margin: auto; 
+    padding-top: 24px;
+}
+ #Logoimg{
+    padding-top: 24px;
+    width: 300px;
+    height: 99px;
+}
+
+.ornek{
+    width: 100%;
+    padding-top: 24px;
+}
+.sol{
+    float:left;
+    padding:0 10px 10px 0;
+    width: 150px;
+    height: 150px;
+    }
+/* section bitis */
+/* tooltip */
+    .mytooltip {
+    display: inline;
+    position: relative;
+    z-index: 999
+    }
+    .mytooltip .tooltip-item {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    padding: 0 10px
+    }
+    .mytooltip .tooltip-content {
+    position: absolute;
+    z-index: 9999;
+    width: 360px;
+    left: 50%;
+    margin: 0 0 20px -180px;
+    bottom: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    -webkit-box-shadow: -5px -5px 15px rgba(48, 54, 61, 0.2);
+    box-shadow: -5px -5px 15px rgba(48, 54, 61, 0.2);
+    background: #191a19;
+    opacity: 0;
+    cursor: default;
+    pointer-events: none
+    }
+    .mytooltip .tooltip-content::after {
+    content: '';
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: #2a3035 transparent transparent;
+    border-width: 10px;
+    margin-left: -10px
+    }
+    .mytooltip .tooltip-content img {
+    position: relative;
+    height: 140px;
+    width: 140px;
+    display: block;
+    float: left;
+    margin-right: 1em;
+    padding-top: 0%;
+    }
+    .mytooltip .tooltip-item::after {
+    content: '';
+    position: absolute;
+    width: 360px;
+    height: 20px;
+    bottom: 100%;
+    left: 50%;
+    pointer-events: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+    }
+    .mytooltip:hover .tooltip-item::after {
+    pointer-events: auto
+    }
+    .mytooltip:hover .tooltip-content {
+    pointer-events: auto;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, 0deg);
+    transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, 0deg);
+    transition-delay: 1.5ms;
+    }
+    
+/* tooltip */
