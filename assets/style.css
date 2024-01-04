@@ -1,13 +1,21 @@
 *{
     margin:0;
-    padding:0;
+    padding: 5px;;
     box-sizing: border-box;
+}
+div{
+    background-color: rgb(245, 244, 244);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 body {
     font-family: 'Poppins',sans-serif;
     background-size: cover;
-    background-color: rgb(204, 198, 198);
+    background-color:  rgb(235, 235, 235);
+    /* background-image: '../images/back.jpg' ; */
+    /* background-image:url("../image/back.jpg");  */
     color:#191a19;
+
 }
 .textt{            /*text alt cizgi kaldırma class*/
     text-decoration: none;
@@ -18,11 +26,11 @@ body {
     margin: auto;
 }
 a{
-    color:white;
+    color:rgb(43, 27, 27);
 }
 header{
     height: 100px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.893)
+    border-bottom: 2px solid rgba(102, 23, 23, 0.893)
 }
 /* Header baslangıc */
 .hd1{
@@ -36,7 +44,7 @@ header nav{
     height: 100%;
 }
 header nav .logo a{
-    color:white;
+    color:rgb(156, 80, 80);
     text-decoration: none;
     width: 20px;
     height: 10px;
@@ -52,7 +60,7 @@ nav ul{
     column-gap: 30px;
 }
 nav ul a{
-    color:white;
+    color:rgb(85, 27, 27);
     text-decoration: none;
 }
 nav ul li a:hover{
@@ -90,7 +98,7 @@ nav.menu{
     padding-top: 24px;
 }
  #Logoimg{
-    padding-top: 24px;
+    padding-top: 50px;
     width: 300px;
     height: 99px;
 }
@@ -104,6 +112,7 @@ nav.menu{
     padding:0 10px 10px 0;
     width: 150px;
     height: 150px;
+    border-radius: 10px;
     }
 /* section bitis */
 /* tooltip */
@@ -131,7 +140,7 @@ nav.menu{
     line-height: 30px;
     -webkit-box-shadow: -5px -5px 15px rgba(48, 54, 61, 0.2);
     box-shadow: -5px -5px 15px rgba(48, 54, 61, 0.2);
-    background: #191a19;
+    background:rgb(212, 212, 212);
     opacity: 0;
     cursor: default;
     pointer-events: none

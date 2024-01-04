@@ -1,5 +1,5 @@
 module.exports.indexview = function () {
-    return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
   <html lang="en">
   <head>
       <meta charset="UTF-8">
@@ -11,11 +11,7 @@ module.exports.indexview = function () {
   <body>
       <header class="hd1">
           <nav>
-            <div >
-      
-            <a href="indexview.js"><img src="../image/logo_.png" class="Logoimg"></img>   </a>
-   
-            </div>
+            <a href="indexview.js"><img src="../image/logo_.png" class="Logoimg"></img>   </a>   
             <div class="menu"> 
               <ul>
                   <li><a href="hhbview.js">Bölüm Başkanı</a></li>
@@ -28,25 +24,22 @@ module.exports.indexview = function () {
       </header>
      
       <section class="container content">
-          <h1 class=> Bilgisayar Programcılığı</h1>
+      <h1> Bilgisayar Programcılığı</h1>
           <div class="ornek card-block">
-              
-            <p><b><b style="font-size:50px">P</b>rogramın Amacı: </b>, Bilgisayar Teknolojileri ve Programlama, bilgisayar kullanımı, yazılım geliştirme (local, İntranet veya İnternet ortamlarında), donanım, bakım-onarım, bilgisayar ağlarının kurulumu ve yönetimi ile ilgili bir bölümdür. Yeni bin yılda bilgi toplumu olma yolundaki ülkemizde, büyük gereksinim duyulan bir alanda meslek edindirmek amacıyla açılan bu bölüm, programında bilgisayar donanım ve yazılım teknolojileri üzerine kurulu dersleri bulundurur. Mezunlar başta sanayi kuruluşları olmak üzere yazılım firmaları, bilgisayar satış ve teknik destek firmaları, bankalar, sigorta şirketleri, ticari kuruluşlar, İnternet servis sağlayıcıları, İnternet yayıncılık şirketleri, radyo-televizyon şirketleri, araştırma şirketleri, borsalar, ulaştırma, eğitim, lojistik firmaları ve hizmet sektöründe yer alan kamu kurum ve kuruluşlarında geniş iş imkânına sahiptirler.  
+          
+            <p><b><b style="font-size:50px">P</b>rogramın Amacı: </b> , Bilgisayar Teknolojileri ve Programlama, bilgisayar kullanımı, yazılım geliştirme (local, İntranet veya İnternet ortamlarında), donanım, bakım-onarım, bilgisayar ağlarının kurulumu ve yönetimi ile ilgili bir bölümdür. Yeni bin yılda bilgi toplumu olma yolundaki ülkemizde, büyük gereksinim duyulan bir alanda meslek edindirmek amacıyla açılan bu bölüm, programında bilgisayar donanım ve yazılım teknolojileri üzerine kurulu dersleri bulundurur. Mezunlar başta sanayi kuruluşları olmak üzere yazılım firmaları, bilgisayar satış ve teknik destek firmaları, bankalar, sigorta şirketleri, ticari kuruluşlar, İnternet servis sağlayıcıları, İnternet yayıncılık şirketleri, radyo-televizyon şirketleri, araştırma şirketleri, borsalar, ulaştırma, eğitim, lojistik firmaları ve hizmet sektöründe yer alan kamu kurum ve kuruluşlarında geniş iş imkânına sahiptirler.  
                <br>Bölüm başkanı ise 
                   <span class="mytooltip tooltip-effect-1">
                   <span class="tooltip-item"><a href="hhbview.js" class="textt"> <b style="color:Black">Hasan Hüseyin BAŞ</b></a>'tır.</span>
                   <span class="tooltip-content clearfix">
                   <a href="hhbview.js"> <img src="../image/hhb.png" ></a>
-                  <span class="tooltip-text"><a href="hhbview.js" class="textt">Bölüm başkanı <br>Hasan Hüseyin BAŞ</a></span>
+                  <span ><a href="hhbview.js" class="textt">Hasan Hüseyin BAŞ ,Sivas Cumhuriyet Üniversitesi'nde Öğretim Görevlisi olarak görev yapmaktadır.</a></span>
                   </span>
                   </span>
                   <br>
                   <br>
                   <br> 
                     <b>Programımızdan Dikey Geçiş Yapabilecek Lisans Programları: </b>
-                    <br>
-                
-
                     <li>Bilgisayar Bilimleri</li>
                     
                     <li> Bilgisayar Mühendisliği</li>
@@ -81,6 +74,7 @@ module.exports.indexview = function () {
                     
                     <li> Yazılım Mühendisliği  </li>
               </p> 
+              
       </div>
       </section>
   </div>

@@ -11,28 +11,26 @@ module.exports.linkview = function () {
   <body>
       <header class="hd1">
           <nav>
-            <div >
             <a href="indexview.js"><img src="../image/logo_.png" class="Logoimg"></img>   </a>
         </img> 
-                 
-            </div>
             <div class="menu"> 
               <ul>
+              <li><a href="indexview.js">Ana Sayfa</a></li>
                   <li><a href="hhbview.js">Bölüm Başkanı</a></li>
                   <li><a href="Academicview.js">Akademik Kadro</a></li>
                   <li><a href="communicationview.js">İletişim</a></li>
-                  <li><a href="linkview.js">Bölüm Sayfaları</a></li>
+   
               </ul>
           </div>
           </nav>
       </header>
      
       <section class="container content">
-          <h1>İletişim</h1>
+          <h1>Bölüm Sayfaları</h1>
           <div class="ornek card-block">
-            <p>Adres:       Sivas Cumhuriyet Üniversitesi Sivas Teknik Bilimler Meslek Yüksekokulu 58140</p> <br>
-            <p>Tel:         0.346.2191010-1484 -1507<p><br>
-            </div>
+          <p><b>Web:  </b>        <a href="http://193.140.145.101">http://smyo.cumhuriyet.edu.tr</a></p>
+          <p><b>Web:  </b>        <a href="https://sivasmyo.cumhuriyet.edu.tr/program/611601317-bilgisayar-programciligi">https://sivasmyo.cumhuriyet.edu.tr</a></p>
+        </div>
       </section>
   </div>
   </body>

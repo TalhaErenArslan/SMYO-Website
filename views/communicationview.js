@@ -11,16 +11,17 @@ module.exports.communicationview = function () {
   <body>
       <header class="hd1">
           <nav>
-            <div >
+        
             <a href="indexview.js"><img src="../image/logo_.png" class="Logoimg"></img>   </a>
         </img> 
                  
-            </div>
+        
             <div class="menu"> 
               <ul>
+              <li><a href="indexview.js">Ana Sayfa</a></li>
                   <li><a href="hhbview.js">Bölüm Başkanı</a></li>
                   <li><a href="Academicview.js">Akademik Kadro</a></li>
-                  <li><a href="communicationview.js">İletişim</a></li>
+
                   <li><a href="linkview.js">Bölüm Sayfaları</a></li>
               </ul>
           </div>
